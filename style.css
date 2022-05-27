@@ -1,0 +1,136 @@
+  header,h2{
+    text-align: center;
+  }
+
+  header{
+    margin-bottom: 50px;
+  }
+
+  body{
+    padding-top: 20px;
+    height: 500px;
+  }
+  
+  hr{
+    border: 3px solid rgb(0, 154, 249);
+    width: 100%;
+  }
+  
+  .container {
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    height:90%;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    height: auto;
+  }
+  
+  .form-pesanan {
+    padding: 40px;
+    margin-top: 0;
+    border-radius: 10px;
+    border: 1px solid rgb(73, 182, 219);
+    width: auto;
+    padding-bottom: 50px;
+    background-color: rgb(39, 186, 212);
+  
+  }
+  
+  select {
+    padding: 6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 250px;
+    border: 1px solid rgb(196, 105, 181);
+  }
+  
+  input {
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* margin-right: 100px; */
+    margin-bottom: 10px;
+    border: 1px solid rgb(213, 167, 209);
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-width: 0;
+    text-align: center;
+    width: max-content
+  }
+  
+  #tambah-produk {
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+  }
+  
+  #pesan {
+    background-color: rgb(149, 202, 229);
+    width: 100%;
+    color: white;
+    border-radius: 3px;
+  }
+  
+  .hapus {
+    margin-top: 10px;
+    padding: 2px 12px !important;
+    align-items: center;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(147, 202, 222);
+    color: rgb(131, 218, 229);
+    border-radius: 4px;
+  }
+  
+  #tambah-produk:hover {
+  background-color: rgb(247, 247, 247);
+  }
+  
+  #pesan:hover {
+    background-color: rgb(177, 201, 215);
+  }
+  
+  
+  
+  .pad-right {
+    padding-right: 10px;
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .form-produk::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+
+  
+  .jumlah {
+    margin: 5px;
+  }
+  
+  .pd-top {
+    margin-top: 18px;
+  }
+  .cont-3 {
+    padding-left: 30px;
+  }
+
+  .footer {
+    text-align: center;
+    font-style: italic;
+    padding-top: 150px;
+  }
